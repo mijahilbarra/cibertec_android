@@ -59,7 +59,7 @@ class LoginActivity : ComponentActivity() {
                 isLoading = false
                 Toast.makeText(
                     this,
-                    "Google sign in failed: ${e.message}",
+                    "Error al iniciar sesión con Google: ${e.message}",
                     Toast.LENGTH_SHORT
                 ).show()
             }
@@ -90,14 +90,14 @@ class LoginActivity : ComponentActivity() {
                     val user = auth.currentUser
                     Toast.makeText(
                         this,
-                        "Welcome ${user?.displayName}!",
+                        "¡Bienvenido ${user?.displayName}!",
                         Toast.LENGTH_SHORT
                     ).show()
                     navigateToMainActivity()
                 } else {
                     Toast.makeText(
                         this,
-                        "Authentication failed: ${task.exception?.message}",
+                        "Error de autenticación: ${task.exception?.message}",
                         Toast.LENGTH_SHORT
                     ).show()
                 }

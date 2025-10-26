@@ -62,7 +62,7 @@ fun GoogleSignInButton(
                     modifier = Modifier.padding(end = 12.dp)
                 )
                 Text(
-                    text = "Sign in with Google",
+                    text = "Iniciar sesión con Google",
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Medium
                 )

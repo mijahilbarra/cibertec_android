@@ -55,7 +55,7 @@ fun LoginScreen(
             
             // Terms and conditions
             Text(
-                text = "By signing in, you agree to our Terms of Service\nand Privacy Policy",
+                text = "Al iniciar sesión, aceptas nuestros Términos de Servicio\ny Política de Privacidad",
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center,

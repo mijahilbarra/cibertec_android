@@ -91,12 +91,12 @@ fun UserProfileMenu(
                     ) {
                         Icon(
                             imageVector = Icons.Default.ExitToApp,
-                            contentDescription = "Logout",
+                            contentDescription = "Cerrar sesión",
                             tint = MaterialTheme.colorScheme.error
                         )
                         Spacer(modifier = Modifier.width(12.dp))
                         Text(
-                            text = "Logout",
+                            text = "Cerrar sesión",
                             color = MaterialTheme.colorScheme.error
                         )
                     }

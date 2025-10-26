@@ -37,7 +37,7 @@ fun AppLogo(
         )
         
         Text(
-            text = "Your perfect haircut awaits",
+            text = "Tu corte perfecto te espera",
             fontSize = 16.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 8.dp)

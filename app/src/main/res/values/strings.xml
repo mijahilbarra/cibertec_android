@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">barber_project</string>
+    <!-- TODO: Replace with your actual Web Client ID from Firebase Console -->
+    <!-- Get it from: Firebase Console → Project Settings → Web client ID -->
+    <string name="default_web_client_id">248980290039-0ts0vvgk321lo8ii66gs40vkd6qppu6i.apps.googleusercontent.com</string>
+</resources>

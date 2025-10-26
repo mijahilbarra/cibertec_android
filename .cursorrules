@@ -1,0 +1,35 @@
+---
+alwaysApply: true
+---
+
+# Project Rules
+
+## Development Guidelines
+
+1. **Keep it simple** - Prioritize straightforward solutions and avoid over-engineering
+
+2. **No custom UI** - Use standard UI components and libraries, don't create custom UI implementations
+
+3. **Class Diagram Documentation** - Always maintain a `diagramClass.md` file in the project root:
+   - Create it if it doesn't exist
+   - Keep it updated with any architectural or class structure changes
+   - Use Mermaid.js syntax for all diagrams
+
+4. **Don't create summary or explaining files** - Avoid creating additional documentation or explanation files
+
+5. **Atomic Design Architecture** - Follow atomic design principles for all UI components:
+   - **Atoms** (`ui/components/atoms/`) - Basic, indivisible UI elements (e.g., buttons, avatars, inputs)
+   - **Molecules** (`ui/components/molecules/`) - Simple combinations of atoms (e.g., search bar, profile menu)
+   - **Organisms** (`ui/components/organisms/`) - Complex UI sections made of molecules/atoms (e.g., navigation bar, card lists)
+   - **Screens** (`ui/screens/`) - Complete screen compositions
+   - **Activities** should contain only business logic, not UI composables
+   - **DO NOT create @Preview functions** - Previews are not used in this project
+   - Keep components reusable and configurable with parameters
+   - Separate concerns: UI components should not contain business logic
+
+6. **Spanish Language Requirement** - All UI text must be in Spanish:
+   - All string literals displayed to users must be in Spanish
+   - Button labels, screen titles, messages, and any visible text must be in Spanish
+   - Comments and code documentation can be in English
+   - Variable and function names should follow standard English coding conventions
+

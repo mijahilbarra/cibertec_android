@@ -1,0 +1,47 @@
+{
+    "project_info": {
+      "project_number": "248980290039",
+      "project_id": "cibertec-db",
+      "storage_bucket": "cibertec-db.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:248980290039:android:a7f77000dac3744c0616f2",
+          "android_client_info": {
+            "package_name": "com.cibertec.barber_project"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "248980290039-3ahiq012o79v6oikgkuich8708tmsm40.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.cibertec.barber_project",
+              "certificate_hash": "1195034dd411feb9b5c9a577f7decf3c2b5ce6e2"
+            }
+          },
+          {
+            "client_id": "248980290039-10ejudp74hfjvuc193la25h0makomr5b.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyB1fRigPkFHPjiERpn9zKPsohyp86uKmeI"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "248980290039-0ts0vvgk321lo8ii66gs40vkd6qppu6i.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
